@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-google-analytics"
+    id="cordova-plugin-google-analytics-rocketchat"
     version="1.8.3">
   <engines>
     <engine name="cordova" version=">=3.0.0" />
@@ -10,7 +10,7 @@
   <author>Daniel C. Wilson</author>
   <license>MIT License</license>
   <js-module src="www/analytics.js" name="UniversalAnalytics">
-    <clobbers target="cordovaga" />
+    <clobbers target="cordova.plugins.ga" />
   </js-module>
 
   <platform name="browser">
